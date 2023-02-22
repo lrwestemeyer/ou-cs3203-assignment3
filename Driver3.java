@@ -12,6 +12,7 @@ public class Driver3 {
 		for (int i = 0; i < size; i++) {
 			arr[i] = scan.nextInt();
 		}
+
 		System.out.println("The sum is: "+Sum(arr));
 		System.out.println("The product is: "+Mult(arr));
 		int[] reverse = Reverse(arr);
@@ -25,7 +26,11 @@ public class Driver3 {
         System.out.println("Part 10 Changes! :)");
 		
 	}
+
 		
+		System.out.println("Part10");
+	}
+
 
 	public static int Sum(int[] input) {
 		int sum = 0;
@@ -42,6 +47,7 @@ public class Driver3 {
 		}
 		return sum;
 	}
+
 	
 	public static int[] Reverse(int[] input) {
 		int reverse[] = new int[input.length];
@@ -56,5 +62,6 @@ public class Driver3 {
 			
 	}
 	
-	
+
 }
+
