@@ -12,6 +12,7 @@ public class Driver3 {
 		for (int i = 0; i < size; i++) {
 			arr[i] = scan.nextInt();
 		}
+		
 	}
 		
 
@@ -30,4 +31,19 @@ public class Driver3 {
 		}
 		return sum;
 	}
+	
+	public static int[] Reverse(int[] input) {
+		int reverse[] = new int[input.length];
+		int counter = 0;
+		
+		for(int i = input.length - 1; i >= 0; i--) {
+			reverse[counter] = input[i];
+			counter++;
+		}
+		
+		return reverse;
+			
+	}
+	
+	
 }
