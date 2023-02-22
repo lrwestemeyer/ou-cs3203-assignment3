@@ -12,8 +12,10 @@ public class Driver3 {
 		for (int i = 0; i < size; i++) {
 			arr[i] = scan.nextInt();
 		}
-	}
 		
+		System.out.println("Part10");
+	}
+
 
 	public int Sum(int[] input) {
 		int sum = 0;
